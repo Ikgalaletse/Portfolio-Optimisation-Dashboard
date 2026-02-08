@@ -1,8 +1,8 @@
 # 🌙 Mean–Variance Portfolio Optimization with Capital Allocation Line (CAL)
 
-This repository contains an **interactive Streamlit dashboard** that implements **mean–variance portfolio optimization** combined with the **Capital Allocation Line (CAL)** framework.
+This repository contains an **interactive Streamlit dashboard** that implements **mean–variance portfolio optimisation** combined with the **Capital Allocation Line (CAL)** framework.
 
-The dashboard is designed to help users **understand portfolio construction**, **asset allocation**, and **risk–return trade-offs** in a clear, visual, and practical way using historical data.
+The dashboard is designed to help users **understand portfolio construction**, **asset allocation**, and **risk–return trade-offs** in a clear, visual, and practical way using historical data sourced from Yahoo Finance.
 
 ---
 
@@ -110,3 +110,4 @@ pip install streamlit numpy pandas scipy matplotlib yfinance
 ```bash
 streamlit run app.py
 ```
+
