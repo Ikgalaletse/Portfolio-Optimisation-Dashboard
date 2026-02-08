@@ -98,6 +98,15 @@ This dashboard enforces **realistic investment constraints**:
 ## ▶️ How to Run the Dashboard Locally
 
 ### 1️⃣ Clone the repository
+
+### 2️⃣ Install dependencies
+
 ```bash
-git clone https://github.com/your-username/your-repo-name.git
-cd your-repo-name
+pip install streamlit numpy pandas scipy matplotlib yfinance
+```
+
+### 3️⃣ Run the app
+
+```bash
+streamlit run app.py
+```
